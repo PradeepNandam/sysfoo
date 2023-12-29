@@ -37,7 +37,7 @@
 								<h3><% out.println("IP address  :  " + request.getLocalAddr()); %></h3>
 								<h4><% out.println("PORT        :  " + request.getLocalPort()); %></h4>
 								<h4><% out.println("HOSTNAME    :  " + request.getLocalName()); %></h4>
-								<h4>Today's date: <%= (new java.util.Date()).toLocaleString()%></h4>
+								<h4>Today's date is: <%= (new java.util.Date()).toLocaleString()%></h4>
 							</div>
 						</div>
 						<nav>
